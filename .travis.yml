@@ -29,8 +29,5 @@ install:
 before_script:
   - cp .travis/RoboFile.php .
 
-script:
-  - vendor/bin/robo $JOB
-
 after_success:
   - test $JOB = "job:run-unit-tests" && travis_retry php vendor/bin/php-coveralls -v
