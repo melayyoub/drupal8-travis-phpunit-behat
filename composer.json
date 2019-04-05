@@ -44,7 +44,7 @@
 		"sort-packages": true
 	},
 	"autoload": {
-		"classmap": [ "./composer/ScriptHandler.php" ],
+		"classmap": [ "scripts/composer/ScriptHandler.php" ],
 		"files": [ "load.environment.php" ]
 	},
 	"scripts": {
