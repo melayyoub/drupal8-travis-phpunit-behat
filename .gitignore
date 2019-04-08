@@ -8,6 +8,9 @@ sites/*/files
 sites/*/private
 sites/*/translations
 
+# Ignore mac ds files.
+*.DS_Store
+
 # Ignore default text files
 robots.txt
 /CHANGELOG.txt
