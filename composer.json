@@ -33,6 +33,7 @@
 		"bex/behat-screenshot": "^1.2",
 		"drupal/coder": "^8.2",
 		"drupal/drupal-extension": "master-dev",
+		"geerlingguy/drupal-vm-docker": "^1.0",
 		"webflo/drupal-core-require-dev": "~8.5"
 	},
 	"conflict": {
